@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background: linear-gradient(135deg, #153677,#4e085f);
+}
+.container h1{
+    margin-bottom: 50px;
+}
+#calculator{
+    border: 1px solid rgb(187, 183, 183);
+    border-radius: 5px;
+    width: 200px;
+    background-color: #ebe6e647;
+}
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap; 
+    /* Flex Wrap allows the content to wrap to the next line if there isn't enough space in that line */
+    justify-content: center;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
